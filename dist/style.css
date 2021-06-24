@@ -50,9 +50,12 @@ body .container .make-title-wrapper button {
   justify-content: center;
   align-items: center;
 }
-.top h1 {
+.top h1#title {
   color: #59539F;
   font-size: 4rem;
+  opacity: 0;
+  transition: opacity 0.5s;
+  text-align: right;
 }
 
 .bottom {

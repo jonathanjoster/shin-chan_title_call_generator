@@ -50,9 +50,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    h1 {
+    h1#title {
         color: #59539F;
         font-size: 4rem;
+        opacity: 0;
+        transition: opacity .5s;
+        text-align: right;
     }
 }
 .bottom {
